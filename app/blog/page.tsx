@@ -54,8 +54,8 @@ const BlogPage = async () => {
         </div>
 
         <div className={styles.subContent}>
-          <BlogPostLink heading="Recommended" posts={rankedPosts} />
-          <BlogTagLink heading="Categories" tags={tags} />
+          <BlogPostLink heading="おすすめ" posts={rankedPosts} />
+          <BlogTagLink heading="カテゴリー" tags={tags} />
         </div>
       </div>
     </>
