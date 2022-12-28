@@ -6,10 +6,10 @@
 
   --bg: #fdfdfd;
   --fg: #333;
-  --accents-1: #0070f3;
-  --accents-2: #3291ff;
+  --accents-1: #216741;
+  --accents-2: #0f8545;
   --accents-3: #666;
-  --geist-foreground: #000;
+  --geist-foreground: #333;
   --geist-success: #690;
 
   --radius: 4px;
@@ -113,14 +113,14 @@ h3 {
 }
 
 ol {
-  color: #222;
+  color: #333;
   font-weight: 400;
   font-size: 0.9rem;
   line-height: 1.8rem;
 }
 p,
 ul {
-  color: #222;
+  color: #333;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.8rem;
