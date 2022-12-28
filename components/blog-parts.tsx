@@ -61,7 +61,7 @@ export const PostBody = ({ blocks }) => (
 export const ReadMoreLink = ({ post }) => (
   <div className={styles.readMoreLink}>
     <Link href={getBlogLink(post.Slug)} className={styles.readMore}>
-      Read more
+      ブログの続きをみる
     </Link>
   </div>
 )
@@ -83,7 +83,7 @@ export const NextPageLink = ({ firstPost, posts, tag = '' }) => {
             : getBeforeLink(lastPost.Date)
         }
       >
-        Next page ＞
+        次のページ ＞
       </Link>
     </div>
   )
@@ -92,7 +92,7 @@ export const NextPageLink = ({ firstPost, posts, tag = '' }) => {
 export const NoContents = ({ contents }) => {
   if (!!contents && contents.length > 0) return null
 
-  return <div className={styles.noContents}>There are no contents yet</div>
+  return <div className={styles.noContents}>まだコンテンツがありません</div>
 }
 
 export const BlogPostLink = ({ heading, posts }) => (
@@ -149,6 +149,5 @@ export const TagLinkList = ({ tags }) => {
 
 export const PostsNotFound = () => (
   <div className={styles.postsNotFound}>
-    Woops! did not find the posts, redirecting you back to the blog index
-  </div>
+投稿が見つからなかったため、ブログのインデックスにリダイレクトされました  </div>
 )
