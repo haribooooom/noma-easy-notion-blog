@@ -8,7 +8,7 @@ const DATABASE_ID = process.env.DATABASE_ID
 const NEXT_PUBLIC_URL = process.env.NEXT_PUBLIC_URL
 const NEXT_PUBLIC_GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_TRACKING_ID
 const NEXT_PUBLIC_SITE_TITLE = 'noma log'
-const NEXT_PUBLIC_SITE_DESCRIPTION = 'Easy to start your blog. You can write on your Notion.'
+const NEXT_PUBLIC_SITE_DESCRIPTION = 'this is noma"s notion blog.'
 const BLOG_INDEX_CACHE = path.resolve('.blog_index_data')
 const NUMBER_OF_POSTS_PER_PAGE = 10
 
