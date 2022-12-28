@@ -86,7 +86,7 @@ const BlogSlugPage = async ({ params: { slug } }) => {
 
         <div className={styles.subContent}>
           <BlogPostLink
-            heading="Posts in the same category"
+            heading="同じカテゴリの投稿"
             posts={otherPostsHavingSameTag}
           />
           <BlogPostLink heading="おすすめ" posts={rankedPosts} />
